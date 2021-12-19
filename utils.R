@@ -64,6 +64,7 @@ u_chars = function(s, encodings) {
 # }
 
 # %>% 를 사용하지 않은 버전
+# R 4.0 이상에서는 |> 를 사용해보는 것도 좋겠다.
 get_printlocales = function()  {
   lc_sys <- Sys.info()[["sysname"]]
   lc_sep <- switch(lc_sys,
@@ -94,4 +95,21 @@ encoding = Encoding
   x
 }
 
+
+## GGPLOT2 관련
+
+x_label_vertical = function() {
+  theme(axis.text.x = element_text(angle=90, vjust=0.5, hjust=1))
+}
+# x-축의 레이블의 방향을 수직으로 바꾼다.
+# 사용 방법 예)
+#   ggplot(mtcars, aes(x=cyl, y=mpg)) + geom_point() + x_label_vertical()
+
+legend_alpha1 = function() {
+  guides(colur = guide_legend(override.aes = list(alpha=1)))
+}
+# 범례에서 알파를 1로 고정
+# aes(alpha=)를 쓸 경우에 범례의 색이 흐려져서 식별하지 못하는 경우에 유용
+# 사용 방법 예)
+#   ggplot(mtcars, aes(x=cyl, y=hp, alpha=mpg)) + geom_point() + legend_alpha1()
 
