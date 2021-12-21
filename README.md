@@ -42,3 +42,81 @@ R로 하는 빅데이터 분석: 데이터 전처리와 시각화(제3판)
  Error in `encoding<-`(`*tmp*`, value = "cp949") : 
 value %in% c("latin1", "UTF-8", "bytes", "", "unknown") is not TRUE 
 ```
+
+## 데이터 파일/URL/생성하는 파일 등 외부 의존
+
+### 필요한 데이터 파일
+
+* 08_ImportingData.R
+  - 서울시 한강공원 이용객 현황 (2009_2013년).csv
+  - 서울시 한강공원 이용객 현황 (2009_2013년).xls
+  - 서울특별시 공공자전거 대여소별 이용정보(월간)_2017_1_12.csv
+  - text_data_file_01.csv
+  - dat_UTF8.txt
+  - crypto2021-05.zip
+  - excel_example.xls
+  - s1.json
+  - s2.json
+  - s1b.json
+  - s3a.json
+  - s3b.json
+  - s3c.json
+  - test2.jpg
+
+* 16_ggplot2.R
+  - 테스트.png
+
+* 17_Solutions.R
+  - 서울시 한강공원 이용객 현황 (2009_2013년).csv
+  - 서울특별시 공공자전거 대여소별 이용정보(월간)_2017_1_12.csv
+  - 서울시 한강공원 이용객 현황 (2009_2013년).xls
+
+
+### 외부 URL
+
+* 08_ImportingData.R
+  - http://www.nber.org/data/population-birthplace-diversity/JoEG_BP_diversity_data.csv
+  - https://en.wikipedia.org/wiki/List_of_most_common_surnames_in_Europe
+
+* 17_Solutions.R
+  - http://www.nber.org/data/population-birthplace-diversity/JoEG_BP_diversity_data.csv
+  - http://www.nber.org/data/population-birthplace-diversity/JoEG_BP_diversity_data.dta
+  - https://en.wikipedia.org/wiki/List_of_Korean_surname
+
+
+### 생성되는 데이터 파일
+
+* 08_ImportingData.R
+  - dat.txt
+  - dat.RData
+  - datMsg.txt
+  - datScript.txt
+  - mtcars.RDS
+  - mtcars.feather
+  - dat_rio1.dta
+  - dat_rio2.dta
+  - s3c_bak.json
+
+* 10_datatable.R
+  - dat.csv
+
+* 14_Descriptive.R
+  - report.html (DataExplorer::create_report(mpg2))
+
+* 16_ggplot2.R
+  - picRecent.png
+  - picp.jpg
+  - AC_dbplyr.R
+  - flights.db
+  - AD_files.R
+  - ./__temp
+  - ./__temp2
+  - ./__temp3
+  - dircopy.R
+  - __temp.txt
+
+
+
+
+
+
