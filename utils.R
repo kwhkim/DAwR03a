@@ -138,6 +138,10 @@ check_marks = function(BOM) {
 }
 
 checkBOM0 = function(filename) {
+  check_marks = function(BOM) {
+    if (all(marks[1:length(BOM)] == BOM)) return(TRUE) else return(FALSE)
+  }
+  
   f <- file(filename, "rb")
   marks <- readBin(f, "raw", n=10)
   names(BOMs)[sapply(BOMs, check_marks)]
