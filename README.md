@@ -1,7 +1,7 @@
 # DAwR03a
 R로 하는 빅데이터 분석: 데이터 전처리와 시각화(제3판)
 
-* 축 : 저자 ASCE(**A**merican **S**ociety of **C**ivil **E**ngineers) [Thomas Fitch Rowland Prize](https://www.asce.org/career-growth/awards-and-honors/thomas-fitch-rowland-prize/thomas-fitch-rowland-prize-past-award-winners) [수상])(https://www.mk.co.kr/news/society/view/2022/02/170329/)
+* 축 : 저자 ASCE(**A**merican **S**ociety of **C**ivil **E**ngineers) [Thomas Fitch Rowland Prize](https://www.asce.org/career-growth/awards-and-honors/thomas-fitch-rowland-prize/thomas-fitch-rowland-prize-past-award-winners) [수상](https://www.mk.co.kr/news/society/view/2022/02/170329/)
 
 ![마케팅](ad03.png)
 
